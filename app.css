@@ -1,0 +1,36 @@
+#hasil{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    margin: 3px;
+}
+.kotak_angka{
+    width: 320px;
+    height: 250px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color:rgb(192, 185, 185);
+    text-align: center;
+    line-height: 60px;
+    font-size: 24px;
+    margin: 10px auto;
+    margin-top: 20%;
+}
+.layar{
+    width: 320px;
+    border: 1px solid #ccc;
+    background-color:rgb(231, 229, 229);
+    border-radius: 5px;
+    margin: 0 auto;
+}
