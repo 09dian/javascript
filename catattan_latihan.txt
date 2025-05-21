@@ -2,5 +2,5 @@ tipe-tipe variabel
 1. const // untuk nilai yang tudak berubah sperti nili phi 3.14
 2. var  // hindari var jika tidak benar-benar butuh menimbulkan bug karena tidak mengikuti aturan block scope
 3. let //let untuk nilai yang bisa berubah seperti umur atau tanggal
-
+4. value // untuk menganbil nilai dari inputan
 

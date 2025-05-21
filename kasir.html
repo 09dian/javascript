@@ -26,14 +26,16 @@
             <div id="harga-5" class="harga-5">Rp. 500.000</div>
         </div>
     </div>
+    <div class="pesan">Kode barang : <input type="number" id="kode-barang"></div>
     <div class="pesan">Pesanan : <input type="number" id="pesanan"></div>
     <div class="jumlah">Jumlah : <input type="number" id="jumlah" value="0"></div>
+    
     <div class="tambah">
-        <button id="tambah">Tambah</button>
+        <button id="tambah" onclick="tambah()">Tambah</button>
     </div>
     <div class="total">
         <h2>Total Harga:</h2>
-        <div class="list-pesanan">
+        <div id="hasil" class="list-pesanan">
             <!-- yang di pesan akan tampil disini -->
             <label for="">1 keyboar * 3 Rp.900000</label>
         </div>
