@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.timer {
+  font-size: 90px;
+}
+.start {
+  width: 80px;
+  height: 50px;
+  font-size: 20px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.pause {
+  width: 80px;
+  height: 50px;
+  font-size: 20px;
+  background-color: rgba(54, 120, 244, 0.6);
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.reset {
+  width: 80px;
+  height: 50px;
+  font-size: 20px;
+  background-color: #f44336;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.kotak {
+  text-align: center;
+  margin-top: 10%;
+}

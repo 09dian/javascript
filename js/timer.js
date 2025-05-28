@@ -5,7 +5,7 @@ let interval;
 let berjalan = false;
 
 function tampilkanWaktu() {
-    const layar = document.getElementById("layar"); // ✔️ tanpa titik
+    const layar = document.getElementById("layar");
     const format =
         String(jam).padStart(2, "0") + ":" +
         String(menit).padStart(2, "0") + ":" +

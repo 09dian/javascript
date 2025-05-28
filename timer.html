@@ -2,16 +2,22 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="css/timer.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Timer</title>
 </head>
 
 <body>
-    <div class="timer" id="layar">00:00:00</div>
-    <button onclick="mulai()">Start</button>
-    <button onclick="pause()">Pause</button>
-    <button onclick="reset()">Reset</button>
+    <div class="kotak">
+        <div class="timer" id="layar">00:00:00</div>
+        <div class="tombol">
+            <button  class="start" onclick="mulai()">Start</button>
+            <button class="pause" onclick="pause()">Pause</button>
+            <button class="reset" onclick="reset()">Reset</button>
+        </div>
+    </div>
 </body>
 <script src="js/timer.js"></script>
+
 </html>
